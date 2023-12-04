@@ -1,0 +1,87 @@
+/* ==============================
+   SECTION 1: RESET CSS
+   ============================== */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+html{
+    font-size: 62.5%; /* 16px mult 62.5% = 10 rem */
+}
+body{
+    font: 1.6rem "Montserrat", sans-serif;
+    margin: 0;
+    letter-spacing: 0.1rem; /* 1px */
+    line-height: 1.6;
+    background-color: var(--bgcolor-theme);
+}
+h1,h2,h3, p, figure, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+ }
+ *{
+    box-sizing: border-box;
+ }
+    
+ /* ==============================
+   SECTION 2: RESET CSS
+   ============================== */
+
+ :root{
+    --bgcolor-theme:rgba(45,52,54,1.0);
+    --bgcolor-header:#222;
+    --bgcolor-list:rgba(223,230,233,1.0);
+    --letter-color:#fff;
+    --letter-color-default:#222;
+    
+ }
+
+ /* header */
+ header{
+    background-color: var(--bgcolor-header);
+    margin-bottom: 5rem;
+ }
+ header > h1{
+    text-align: center;
+    color: var(--letter-color);
+    line-height: 6.5rem;
+ }
+ /* figure */
+ figure{
+    max-width: 90rem;
+    margin: 0 auto;
+    border: solid .1rem #ced6da;
+    padding: 1rem;
+    background-color: var(--letter-color);
+ }
+ figure img{
+   display: inline-block;
+    max-width: 100%;
+ }
+ figure figcaption ul{
+    line-height: 6rem;
+ }
+  figure figcaption ul li{
+    padding: 0.5rem;
+ }
+ 
+figure figcaption ul li:nth-child(2n+2){ /* 1 sur 2 à partir du 1er */ 
+    background-color: var(--bgcolor-list);
+}
+/* details du film */
+details {
+    background-color: var(--bgcolor-list);
+}
+details summary{
+    line-height: 6rem;
+    padding-left: .5rem;
+}
+details p{
+    padding: 0.5rem;
+}
+    
+/* footer */ 
+footer *{
+    text-align: center;
+    color: var(--letter-color);
+    line-height: 4.5rem;
+}
