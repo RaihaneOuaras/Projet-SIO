@@ -4,13 +4,14 @@
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 html{
     font-size: 62.5%; /* 16px mult 62.5% = 10 rem */
+    background: url(../asset/batman\ rouge.jpg)no-repeat fixed center center / cover;
 }
 body{
     font: 1.6rem "Montserrat", sans-serif;
     margin: 0;
     letter-spacing: 0.1rem; /* 1px */
     line-height: 1.6;
-    background-color: var(--bgcolor-theme);
+   /* background-color: var(--bgcolor-theme); */
 }
 h1,h2,h3, p, figure, ul{
     margin: 0;
