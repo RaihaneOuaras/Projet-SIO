@@ -63,4 +63,22 @@ footer *{
 }
 
 /* media queris responsive */
+@media screen and (max-width: 80rem;){
+   figure figcaption ul{
+       line-height: 6rem;
+   }
+   details p{
+       text-align: left;
+   }
+}
+
+@media screen and (max-width: 100rem;){
+   figure figcaption ul{
+       line-height: 6rem;
+   }
+   details p{
+       text-align: left;
+   }
+}
+   
 
