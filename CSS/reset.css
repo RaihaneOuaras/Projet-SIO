@@ -4,7 +4,7 @@
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 html{
     font-size: 62.5%; /* 16px mult 62.5% = 10 rem */
-    background: url(../asset/batman\ rouge.jpg)no-repeat fixed center center / cover;
+    background: url(/asset/batman\ rouge.jpg)no-repeat fixed center center / cover;
 }
 body{
     font: 1.6rem "Montserrat", sans-serif;
